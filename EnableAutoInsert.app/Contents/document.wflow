@@ -424,7 +424,7 @@ tell application "System Events" to tell (1st process whose frontmost is true) t
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:237.000000</string>
+				<string>301.500000:237.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Specified Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -502,7 +502,7 @@ tell application "System Events" to tell (1st process whose frontmost is true) t
 					<key>newFileFolderPath</key>
 					<string>B41A01D0-15ED-43F2-AB97-3D08ABCB4679</string>
 					<key>newFileName</key>
-					<string>paste.txt</string>
+					<string>paste</string>
 					<key>newFileTextEncoding</key>
 					<integer>4</integer>
 					<key>replaceExistingFiles</key>
@@ -629,12 +629,87 @@ tell application "System Events" to tell (1st process whose frontmost is true) t
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:417.000000</string>
+				<string>301.500000:417.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Text File.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Reveal Finder Items.action</string>
+				<key>ActionName</key>
+				<string>显示 Finder 项目</string>
+				<key>ActionParameters</key>
+				<dict/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Reveal_Finder_Items</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMRevealFinderItemsAction</string>
+				<key>InputUUID</key>
+				<string>42669BEB-B002-4BDF-8E46-9406B1C3061A</string>
+				<key>Keywords</key>
+				<array>
+					<string>显示</string>
+					<string>文件夹</string>
+					<string>文件</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>AB249F8B-FADE-447B-838F-921D2AF5A3E0</string>
+				<key>UUID</key>
+				<string>30002114-2F8A-4FA0-B97C-32B90B6B2244</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict/>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+			</dict>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1100,12 +1175,10 @@ tell application "System Events" to tell (1st process whose frontmost is true) t
 						<string>9</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:577.000000</string>
+				<string>301.500000:643.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1115,19 +1188,26 @@ tell application "System Events" to tell (1st process whose frontmost is true) t
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>23E152D8-1A73-4544-9E07-D9FD06132B98</key>
+		<key>0C9D3E35-C387-43EA-85B1-D8D98163759E</key>
+		<dict>
+			<key>from</key>
+			<string>30002114-2F8A-4FA0-B97C-32B90B6B2244 - 30002114-2F8A-4FA0-B97C-32B90B6B2244</string>
+			<key>to</key>
+			<string>14CE4888-2A10-43EB-AC12-43D46E629A75 - 14CE4888-2A10-43EB-AC12-43D46E629A75</string>
+		</dict>
+		<key>23EAE9B7-1CBA-4767-BA72-E3E5B57E9F4F</key>
+		<dict>
+			<key>from</key>
+			<string>813E4320-74FE-4B3B-8484-11E69E514239 - 813E4320-74FE-4B3B-8484-11E69E514239</string>
+			<key>to</key>
+			<string>30002114-2F8A-4FA0-B97C-32B90B6B2244 - 30002114-2F8A-4FA0-B97C-32B90B6B2244</string>
+		</dict>
+		<key>64CAB42D-0F17-4457-9A25-C43CA7B9CBDD</key>
 		<dict>
 			<key>from</key>
 			<string>7DBB3933-D7B4-446A-9AE1-0D5518B581CD - 7DBB3933-D7B4-446A-9AE1-0D5518B581CD</string>
 			<key>to</key>
 			<string>813E4320-74FE-4B3B-8484-11E69E514239 - 813E4320-74FE-4B3B-8484-11E69E514239</string>
-		</dict>
-		<key>81811DF0-2D94-412A-ACAA-0E6BB9EAD6A6</key>
-		<dict>
-			<key>from</key>
-			<string>813E4320-74FE-4B3B-8484-11E69E514239 - 813E4320-74FE-4B3B-8484-11E69E514239</string>
-			<key>to</key>
-			<string>14CE4888-2A10-43EB-AC12-43D46E629A75 - 14CE4888-2A10-43EB-AC12-43D46E629A75</string>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -1141,7 +1221,7 @@ tell application "System Events" to tell (1st process whose frontmost is true) t
 			<string>shell 脚本</string>
 			<key>value</key>
 			<string>/bin/bash
-echo $HOME/Library/Application\\ Script/com.xiaoxiao.Kaomoji-Lover/</string>
+echo $HOME/Library/Application\ Script/com.xiaoxiao.Kaomoji-Lover/</string>
 		</dict>
 	</array>
 	<key>workflowMetaData</key>
