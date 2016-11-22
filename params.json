@@ -1,6 +1,6 @@
 {
-  "name": "Autoinsert script for Kaomoji Lover",
-  "tagline": "An Apple Script helps inserting Kaomojis to current input.",
+  "name": "Enable Autoinsert for Kaomoji Lover",
+  "tagline": "An Automator that enables Auto-Inserting Kaomojis to current input.",
   "body": "### What's this for\r\nPasting something like a Kaomoji from any sandboxed Mac apps requires an Apple Script. According to Apple's requirement, no app is allowed to install this Apple Script automatically. Instead, the installation has to be performed by the user (which is you) manually. So to make things easier, I've made this Automator for you.\r\n\r\n### How to Install\r\n1. Download and open the Zip file.\r\n2. Run the EnableAutoInsert.app once.Done.\r\n\r\n### このファイルとは\r\n顔文字 for Mac の顔文字自動入力機能はある Apple Script に依存しています。この Apple Script をインストールために、Automator を用意しました。アプリの Script インストール機能は、Apple の要求により、撤回しました。\r\n\r\n### インストール\r\n1. 右のリンクで Zip ファイルをダウンロードして開けて。\r\n2. 中の 'EnableAutoInsert.app' を一度起動して。以上。\r\n\r\n### 这是什么\r\n颜文字 for Mac 的自动插入颜文字功能需要用户（也就是您）手动安装一个 Apple Script 文件。为了简化操作，我准备了一个 Automator 小程序。之前 App 提供的自动安装 Script 功能，应 Apple 的要求，将会移除。\r\n\r\n### 如何安装\r\n1. 点击右侧的 Zip 文件下载链接，然后解压。\r\n2. 运行其中的 'EnableAutoInsert.app' 一次即可。",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
