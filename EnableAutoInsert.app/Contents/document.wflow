@@ -707,8 +707,6 @@ tell application "System Events" to tell (1st process whose frontmost is true) t
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -1188,26 +1186,26 @@ tell application "System Events" to tell (1st process whose frontmost is true) t
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0C9D3E35-C387-43EA-85B1-D8D98163759E</key>
-		<dict>
-			<key>from</key>
-			<string>30002114-2F8A-4FA0-B97C-32B90B6B2244 - 30002114-2F8A-4FA0-B97C-32B90B6B2244</string>
-			<key>to</key>
-			<string>14CE4888-2A10-43EB-AC12-43D46E629A75 - 14CE4888-2A10-43EB-AC12-43D46E629A75</string>
-		</dict>
-		<key>23EAE9B7-1CBA-4767-BA72-E3E5B57E9F4F</key>
-		<dict>
-			<key>from</key>
-			<string>813E4320-74FE-4B3B-8484-11E69E514239 - 813E4320-74FE-4B3B-8484-11E69E514239</string>
-			<key>to</key>
-			<string>30002114-2F8A-4FA0-B97C-32B90B6B2244 - 30002114-2F8A-4FA0-B97C-32B90B6B2244</string>
-		</dict>
-		<key>64CAB42D-0F17-4457-9A25-C43CA7B9CBDD</key>
+		<key>39E12E7C-D383-4224-9187-CBC18FD96460</key>
 		<dict>
 			<key>from</key>
 			<string>7DBB3933-D7B4-446A-9AE1-0D5518B581CD - 7DBB3933-D7B4-446A-9AE1-0D5518B581CD</string>
 			<key>to</key>
 			<string>813E4320-74FE-4B3B-8484-11E69E514239 - 813E4320-74FE-4B3B-8484-11E69E514239</string>
+		</dict>
+		<key>4FCEB085-C782-4E36-A6DF-F08D084D6F0E</key>
+		<dict>
+			<key>from</key>
+			<string>813E4320-74FE-4B3B-8484-11E69E514239 - 813E4320-74FE-4B3B-8484-11E69E514239</string>
+			<key>to</key>
+			<string>30002114-2F8A-4FA0-B97C-32B90B6B2244 - 30002114-2F8A-4FA0-B97C-32B90B6B2244</string>
+		</dict>
+		<key>86B4E363-582D-41CB-94A6-DCF0A3D33326</key>
+		<dict>
+			<key>from</key>
+			<string>30002114-2F8A-4FA0-B97C-32B90B6B2244 - 30002114-2F8A-4FA0-B97C-32B90B6B2244</string>
+			<key>to</key>
+			<string>14CE4888-2A10-43EB-AC12-43D46E629A75 - 14CE4888-2A10-43EB-AC12-43D46E629A75</string>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -1221,7 +1219,7 @@ tell application "System Events" to tell (1st process whose frontmost is true) t
 			<string>shell 脚本</string>
 			<key>value</key>
 			<string>/bin/bash
-echo $HOME/Library/Application\ Script/com.xiaoxiao.Kaomoji-Lover/</string>
+echo $HOME/Library/Application\ Scripts/com.xiaoxiao.Kaomoji-Lover/</string>
 		</dict>
 	</array>
 	<key>workflowMetaData</key>
